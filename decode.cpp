@@ -83,7 +83,6 @@ void Decode::decodeMsg(){
     while(inData.eof()){
         cout << "True";
         inData.clear();
-        //inData.ignore(2000, '\n');
         inData.seekg(0, std::ios::beg);
         cout << endl;
     }//end while
